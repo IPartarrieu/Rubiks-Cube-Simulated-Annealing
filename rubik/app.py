@@ -9,7 +9,7 @@ st.set_page_config(page_title="Rubik SA", page_icon="🧊", layout="centered")
 
 st.title("🧊 Resolviendo el Cubo de Rubik con Simulated Annealing")
 st.markdown(
-    "Mezclá el cubo y dejá que un algoritmo de **Simulated Annealing** "
+    "Mezcla el cubo y deja que un algoritmo de **Simulated Annealing** "
     "intente resolverlo, siguiendo el método de "
     "[Saeidi (2018)](https://doi.org/10.5815/ijeme.2018.01.01): la fitness "
     "es el número de piezas fuera de lugar, y en cada paso se prueba un "
@@ -77,7 +77,7 @@ if result is not None:
     st.markdown(
         f"**Último intento:** {len(result['moves'])} movimientos aceptados, "
         f"{result['total_iters']:,} vecinos evaluados — "
-        + ("cubo resuelto." if result["solved"] else "no se resolvió del todo, podés apretar 'Resolver con SA' de nuevo para seguir intentando desde acá.")
+        + ("cubo resuelto." if result["solved"] else "no se resolvió del todo, puedes apretar 'Resolver con SA' de nuevo para seguir intentando desde acá.")
     )
 
     fig2, ax = plt.subplots(figsize=(7, 2.5))

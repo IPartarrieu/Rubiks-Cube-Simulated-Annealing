@@ -8,7 +8,7 @@ Cubo de Rubik en 3D, mezclable a mano, resuelto por un algoritmo de **Simulated 
 
 ## Qué hace
 
-Mezclá el cubo con un número de movimientos al azar y apretá "Resolver con SA": el algoritmo prueba movimientos aleatorios entre los 18 posibles (girar cualquiera de las 6 caras 90°, -90° o 180°), aceptando cada uno si mejora la solución o, si no, con una probabilidad que baja a medida que el sistema se "enfría". Se puede volver a apretar "Resolver" para seguir intentando desde donde quedó.
+Mezcla el cubo con un número de movimientos al azar y aprieta "Resolver con SA": el algoritmo prueba movimientos aleatorios entre los 18 posibles (girar cualquiera de las 6 caras 90°, -90° o 180°), aceptando cada uno si mejora la solución o, si no, con una probabilidad que baja a medida que el sistema se "enfría". Se puede volver a apretar "Resolver" para seguir intentando desde donde quedó.
 
 ## Cómo está construido
 
