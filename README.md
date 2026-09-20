@@ -2,7 +2,9 @@
 
 Cubo de Rubik en 3D, mezclable a mano, resuelto por un algoritmo de **Simulated Annealing** — siguiendo el método de [Saeidi (2018), "Solving the Rubik's Cube using Simulated Annealing and Genetic Algorithm"](https://doi.org/10.5815/ijeme.2018.01.01).
 
-🔗 **Demo en vivo:** _pendiente de desplegar — ver instrucciones abajo_
+🔗 **Demo en vivo:** [rubiks-cube-simulated-annealin-swrgpzutprn7ysd3gyhu7p.streamlit.app](https://rubiks-cube-simulated-annealin-swrgpzutprn7ysd3gyhu7p.streamlit.app/)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rubiks-cube-simulated-annealin-swrgpzutprn7ysd3gyhu7p.streamlit.app/)
 
 ## Qué hace
 
@@ -34,8 +36,3 @@ python tests/test_sa_solver.py
 python tests/test_render.py
 ```
 
-## Desplegar gratis (Streamlit Community Cloud)
-
-1. Andá a [share.streamlit.io](https://share.streamlit.io) y conectate con tu cuenta de GitHub.
-2. "New app" → elegí este repo, branch `main`, main file path `rubik/app.py`.
-3. Deploy.
