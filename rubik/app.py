@@ -7,7 +7,7 @@ from sa_solver import solve_sa
 
 st.set_page_config(page_title="Rubik SA", page_icon="🧊", layout="centered")
 
-st.title("🧊 Resolviendo el Cubo de Rubik con Simulated Annealing")
+st.title("Resolviendo el Cubo Rubik con Simulated Annealing")
 st.markdown(
     "Mezcla el cubo y deja que un algoritmo de **Simulated Annealing** "
     "intente resolverlo, siguiendo el método de "
